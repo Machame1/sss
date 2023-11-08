@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rps.css">
+
+</head>
+<body>
+    <h1>rock paper scissors</h1>
+    
+
+    <button onclick="player('rock');" class="rps"><img src="rock-emoji.png" class="rock"></button>
+    <button onclick="player('paper');" class="rps"><img src="paper-emoji.png" class="paper"></button>
+    <button onclick="player('scissors');" class="rps"><img src="scissors-emoji.png" class="scissors"></button>
+    <p id="sam"></p>
+    <p id="she"></p>
+    <p id="hi"></p> 
+    <button onclick="
+    score.wins=0,
+    score.loses=0,
+    score.ties=0; 
+    " class="reset">
+        reset
+    </button>
+   <script src="rps.js">
+    </script>
+</body>
+</html>

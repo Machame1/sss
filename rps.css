@@ -1,0 +1,31 @@
+.rps{
+    background-color:transparent;
+    border: solid white;
+   border-radius: 120px;
+   padding: 20px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+body{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rock{
+    height: 40px;   
+}
+.paper{
+    height: 40px;
+}
+.scissors{
+    height: 40px;
+}
+.reset{
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    border: transparent;
+    border-radius: 4px;
+}
